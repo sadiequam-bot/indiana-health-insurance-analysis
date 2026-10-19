@@ -15,10 +15,28 @@ Using ChatGPT to assist with data analysis, I will:
 4. Examine the relationship between the two variables and identify any noticeable patterns.
 
 ## Analysis and Findings
-The scatter plot and interpretation will be added after the analysis is completed.
+
+The analysis included 883 distinct Indiana health insurance plan and rating-area observations after removing repeated county listings. I compared the monthly premiums for a 40-year-old adult with individual medical deductibles.
+
+The scatter plot shows a negative relationship between premiums and deductibles, with a correlation of approximately -0.75. This means that plans with higher deductibles generally have lower monthly premiums, while plans with lower deductibles tend to have higher monthly premiums.
+
+This relationship demonstrates an important trade-off in health insurance. Consumers may choose to pay a higher monthly premium to reduce the amount they would need to pay before their insurance begins covering certain medical expenses. Alternatively, they may select a plan with a lower monthly premium but a higher deductible.
+
+Although the overall relationship is strong, not every insurance plan follows this pattern. Other factors, including coverage level and plan design, may influence costs.
+
+### Scatter Plot
+
+![Indiana Health Insurance Premiums vs. Deductibles](indiana_premium_deductible_scatter.png)
 
 ## AI-Assisted Analysis
-ChatGPT was used to help understand the dataset, identify relevant variables, and develop the analysis. The goal is to use AI as a tool while also understanding how the data is processed and what the results mean.
+
+I used ChatGPT to help analyze the Individual Market Medical dataset and create the scatter plot. The analysis involved filtering the data to Indiana, identifying the appropriate premium and deductible columns, removing repeated county listings, and calculating the correlation between the two variables.
+
+The graph uses individual medical deductibles on the horizontal axis and monthly premiums for a 40-year-old adult on the vertical axis.
+
+Using AI helped me understand how large datasets can be analyzed and visualized without manually writing all the code. I also learned how to interpret the correlation and explain the relationship between insurance premiums and deductibles.
+
+This project demonstrates how AI tools and GitHub can be used together to analyze data, document methods, and communicate findings.
 
 ## Connection to Health Economics
 This analysis connects to our class discussions about rising health insurance costs and the financial decisions individuals and employers face. Comparing premiums and deductibles can help illustrate the trade-off between paying more each month for coverage and potentially paying more out of pocket when receiving healthcare services.
